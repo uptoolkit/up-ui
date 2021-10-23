@@ -153,7 +153,7 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 			return __webpack_require__.O(result);
 /******/ 		}
 /******/ 		
-/******/ 		var chunkLoadingGlobal = self["webpackChunk_uptoolkit_upui_vue"] = self["webpackChunk_uptoolkit_upui_vue"] || [];
+/******/ 		var chunkLoadingGlobal = self["webpackChunkupui_vue"] = self["webpackChunkupui_vue"] || [];
 /******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
 /******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
 /******/ 	})();
