@@ -23257,16 +23257,15 @@ li.ant-tree-treenode-disabled > .ant-tree-node-content-wrapper:hover {
     opacity: 0;
   }
 }
-a[disabled],
-a[disabled="false"] {
-  cursor: inherit;
-  color: inherit;
-  pointer-events: initial;
-}
 a[disabled="true"],
-a[disabled="disabled"] {
+a[disabled] {
   color: rgba(0, 0, 0, 0.25);
   cursor: not-allowed;
   pointer-events: none;
+}
+a[disabled="false"] {
+  cursor: pointer !important;
+  color: inherit;
+  pointer-events: initial;
 }
 

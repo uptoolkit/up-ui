@@ -1,5 +1,5 @@
 {
-  "name": "up-ui",
+  "name": "@uptoolkit/upui-vue",
   "version": "1.0.0",
   "scripts": {
     "dev": "npx mix",
